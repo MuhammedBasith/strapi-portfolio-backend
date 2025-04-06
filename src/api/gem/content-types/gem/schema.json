@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "gems",
+  "info": {
+    "singularName": "gem",
+    "pluralName": "gems",
+    "displayName": "Damn I Wish I Knew It - Links"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "url": {
+      "type": "text"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Videos",
+        "Articles",
+        "Books",
+        "Other"
+      ]
+    }
+  }
+}
